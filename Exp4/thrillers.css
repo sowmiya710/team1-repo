@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0, .5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#navbarSupportedContent a{
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid red;
+}
+
+#navbarSupportedContent button{
+    background: white;
+    width: 5rem; 
+    border-radius: 5px; 
+    padding: auto;
+}
+
+.dropdown-item{
+    background: black !important;
+}
+
+.dropdown-menu{
+    background: black !important;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movies{
+    background: black;
+}
+
+#movies h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+#movies img{
+    height: 600px;
+    width: 413px;
+}
+
+.btn{
+    background-color: red !important;
+    color: white !important;
+    border: none !important;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    overflow: hidden;
+}
+
+.signin{
+    background: red !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0, .3);
+}
